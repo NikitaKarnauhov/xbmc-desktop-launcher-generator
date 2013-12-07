@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id='script.desktop.launcher.generator' version='0.1' name='Desktop Launcher Generator' provider-name='jinx'>
+    <requires>
+        <import addon='xbmc.python' version='2.1'/>
+    </requires>
+    <extension point='xbmc.python.script' library='addon.py'/>
+    <extension point='xbmc.addon.metadata'>
+        <platform>linux</platform>
+        <summary>XDG launcher to program addon converter</summary>
+        <description>Generate program menu entries based on XDG-compliant desktop icons.</description>
+    </extension>
+</addon>
